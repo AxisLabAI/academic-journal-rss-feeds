@@ -1,0 +1,14 @@
+{
+  "name": "academic-journal-rss-feeds",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open academic journal RSS, Atom and RDF feed directory",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/registry.test.mjs"
+  }
+}
