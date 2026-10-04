@@ -1,0 +1,519 @@
+[
+  {
+    "publisher": "acs",
+    "source_url": "https://pubs.acs.org/pages/rss",
+    "observed_at": "2026-10-04T12:55:53.548799+00:00",
+    "links": [],
+    "page_sha256": "140d3606c074d9b497b293e7fe939431ad5faa9edf0789c0b091b8d1318ceb84",
+    "outcome": "retrieved"
+  },
+  {
+    "publisher": "frontiers",
+    "source_url": "https://www.frontiersin.org/news/2022/06/30/frontiers-social-media-and-rss",
+    "observed_at": "2026-10-04T12:55:55.462351+00:00",
+    "links": [
+      {
+        "url": "https://www.frontiersin.org/journals/aging/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "http://journal.frontiersin.org/journal/aging-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/agronomy/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/allergy/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/analytical-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/animal-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "http://journal.frontiersin.org/journal/applied-mathematics-and-statistics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/artificial-intelligence/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "http://journal.frontiersin.org/journal/astronomy-and-space-sciences/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/behavioral-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/big-data/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/bioinformatics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/biomaterials-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/blockchain/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/built-environment/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/catalysis/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/cellular-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/chemical-engineering/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/chemistry/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/climate/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/clinical-diabetes-and-healthcare/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/conservation-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/control-engineering/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/communication/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/communications-and-networks/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/computational-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/computer-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/dental-medicine/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/digital-health/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/drug-delivery/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/drug-discovery/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/drug-safety-and-regulation/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/earth-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/ecology-and-evolution/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/education/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/electronics",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/electronic-materials/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/endocrinology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/energy-research/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/environmental-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/environmental-chemistry/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/epidemiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/fungal-biology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/food-science-and-technology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/forests-and-global-change/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/future-transportation/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/gastroenterology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/genetics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/genome-editing/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/global-womens-health/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/health-services/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/human-dynamics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/human-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/immunology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/insect-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/integrative-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/manufacturing-technology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/marine-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/materials/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/mechanical-engineering/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/medical-technology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/medicine/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/microbiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/molecular-medicine/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/molecular-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/nanotechnology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/nephrology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/network-physiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neural-circuits/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neuroanatomy/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neuroergonomics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neuroinformatics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neuroimaging/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neurology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neurorobotics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/nuclear-medicine/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/nutrition/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "http://journal.frontiersin.org/journal/oncology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/ophthalmology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/oral-health/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/pain-research/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/pediatrics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/pharmacology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/photonics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/physics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/physiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/plant-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/political-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/psychiatry/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/psychology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/public-health/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/radiology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/reproductive-health/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/research-metrics-and-analytics/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/remote-sensing/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sensors/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/signal-processing/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sociology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/soft-matter/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/soil-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/space-technologies/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/surgery/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sustainability/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sustainable-cities/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/sustainable-food-systems/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/synaptic-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/systems-biology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/systems-neuroscience/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/thermal-engineering/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/tropical-diseases/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/toxicology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/urology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/veterinary-science/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/virology/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/virtual-reality/rss",
+        "label": "RSS"
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/water/rss",
+        "label": "RSS"
+      }
+    ],
+    "page_sha256": "8f82197eebb029dbbd8b218e280dea73cc38a8fd9f1602312919bd71ce04454d",
+    "outcome": "retrieved"
+  }
+]

@@ -11,7 +11,7 @@ fs.writeFileSync('dist/feeds.opml','<?xml version="1.0" encoding="UTF-8"?>\n<opm
 const statuses=Object.fromEntries(['needs-review','active','unavailable','deprecated'].map(s=>[s,feeds.filter(f=>f.status===s).length]));
 const hosts={}; for(const f of feeds)hosts[f.host]=(hosts[f.host]||0)+1;
 fs.writeFileSync('docs/CATALOG.md','# Academic journal RSS feed catalog\n\n[English](../README.md) · [简体中文](../README.zh-CN.md) · [日本語](../README.ja.md)\n\nGenerated from data/feeds.json. '+feeds.length+' candidate records. A listing is not proof of current availability, journal identity or publisher authorization. Empty last-checked means no current verification.\n\n| Journal / 期刊 / 学術誌 | Feed | Host | Status / 状态 / 状態 | Last checked |\n| --- | --- | --- | --- | --- |\n'+feeds.map(f=>'| '+md(f.name)+' | [Feed](<'+f.feed_url+'>) | '+md(f.host)+' | '+f.status+' | '+(f.last_checked||'—')+' |').join('\n')+'\n');
-const summary={schema_version:1,snapshot_date:'2026-10-04',candidate_records:feeds.length,statuses,https_records:feeds.filter(f=>f.feed_url.startsWith('https:')).length,http_records:feeds.filter(f=>f.feed_url.startsWith('http:')).length,campaign_milestone:{reported_count:2006,target:20000,basis:'Maintainer-provided Day4 campaign milestone; not a live verification count.'},hosts:Object.fromEntries(Object.entries(hosts).sort((a,b)=>b[1]-a[1]))};
+const summary={schema_version:1,snapshot_date:'2026-10-04',candidate_records:feeds.length,statuses,https_records:feeds.filter(f=>f.feed_url.startsWith('https:')).length,http_records:feeds.filter(f=>f.feed_url.startsWith('http:')).length,research_summary:"research-summary.json",hosts:Object.fromEntries(Object.entries(hosts).sort((a,b)=>b[1]-a[1]))};
 fs.writeFileSync('dist/status.json',JSON.stringify(summary,null,2)+'\n');
 console.log(JSON.stringify({records:feeds.length,statuses}));
-
+await import("./build-research.mjs");

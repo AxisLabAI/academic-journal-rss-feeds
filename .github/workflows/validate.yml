@@ -12,5 +12,4 @@ jobs:
           node-version: '22'
       - run: npm run build
       - run: npm test
-      - run: git diff --exit-code -- dist docs/CATALOG.md
-
+      - run: git diff --exit-code -- dist docs README.md README.zh-CN.md README.ja.md

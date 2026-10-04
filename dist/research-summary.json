@@ -1,0 +1,158 @@
+{
+  "observed_date": "2026-10-04",
+  "scope": "2024 historical candidate URLs, not a random sample or global journal census",
+  "started_at": "2026-10-04T12:54:22.751173+00:00",
+  "finished_at": "2026-10-04T13:08:45.881295+00:00",
+  "candidate_urls": 2024,
+  "feed_with_entries": 1709,
+  "other_outcomes": 315,
+  "outcomes": {
+    "access-blocked": 75,
+    "empty-feed": 5,
+    "feed-with-entries": 1709,
+    "html-or-disallowed-doctype": 13,
+    "http-error": 16,
+    "network-or-safety-error": 83,
+    "not-feed-xml": 14,
+    "not-found": 10,
+    "oversize": 1,
+    "rate-limited": 3,
+    "timeout": 14,
+    "tls-or-network-error": 81
+  },
+  "identity_and_freshness_verified": false,
+  "global_active_journal_total": null,
+  "global_official_rss_total": null,
+  "global_self_build_required_total": null,
+  "reviewed_publishers": 12,
+  "acs_official_listed_journal_titles": 91,
+  "acs_listed_feed_options": 182,
+  "frontiers_rss_labelled_links": 125,
+  "frontiers_rss_path_urls": 124,
+  "frontiers_misdirected_rss_labelled_links": 1,
+  "host_groups": [
+    {
+      "publisher_id": "elsevier",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "rss.sciencedirect.com"
+      ],
+      "candidate_urls": 641,
+      "outcomes": {
+        "feed-with-entries": 641
+      }
+    },
+    {
+      "publisher_id": "springer-nature",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "www.nature.com",
+        "feeds.nature.com",
+        "link.springer.com",
+        "www.biomedcentral.com"
+      ],
+      "candidate_urls": 144,
+      "outcomes": {
+        "feed-with-entries": 144
+      }
+    },
+    {
+      "publisher_id": "taylor-francis",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "www.tandfonline.com",
+        "www.dovepress.com"
+      ],
+      "candidate_urls": 25,
+      "outcomes": {
+        "feed-with-entries": 25
+      }
+    },
+    {
+      "publisher_id": "wiley",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "onlinelibrary.wiley.com"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "sage",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "journals.sagepub.com"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "oup",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "academic.oup.com"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "cambridge",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "www.cambridge.org"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "mdpi",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "www.mdpi.com"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "frontiers",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "www.frontiersin.org",
+        "journal.frontiersin.org"
+      ],
+      "candidate_urls": 94,
+      "outcomes": {
+        "feed-with-entries": 94
+      }
+    },
+    {
+      "publisher_id": "ieee",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "ieeexplore.ieee.org"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "acs",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "pubs.acs.org"
+      ],
+      "candidate_urls": 0,
+      "outcomes": {}
+    },
+    {
+      "publisher_id": "acm",
+      "scope": "Candidate host grouping; not publisher ownership or coverage",
+      "hosts": [
+        "dl.acm.org"
+      ],
+      "candidate_urls": 5,
+      "outcomes": {
+        "feed-with-entries": 5
+      }
+    }
+  ]
+}

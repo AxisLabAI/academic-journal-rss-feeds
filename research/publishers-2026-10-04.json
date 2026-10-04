@@ -1,0 +1,279 @@
+{
+  "observed_date": "2026-10-04",
+  "current_global_active_journal_total": null,
+  "current_global_official_rss_journal_total": null,
+  "current_global_self_build_required_total": null,
+  "historical_reference": {
+    "label": "More than 48,000 active peer-reviewed scholarly journals, all languages",
+    "lower_bound": 48000,
+    "data_date": "2021-09-19",
+    "source_title": "STM Global Brief 2021: Economics & Market Size",
+    "page": 15,
+    "source_url": "https://stm-assoc.org/document/stm-global-brief-2021-economics-and-market-size-2/",
+    "pdf_url": "https://s3.eu-west-2.amazonaws.com/stm.offloadmedia/wp-content/uploads/2024/08/10032814/2022_08_24_STM_White_Report_a4_v15.pdf",
+    "underlying_source": "Ulrichsweb, as cited by STM",
+    "note": "Historical benchmark, not a 2026 census. Do not extrapolate or use as an RSS denominator."
+  },
+  "scope": "Purposive overview of 12 representative publishers/platforms; neither exhaustive nor a ranking. Portfolio, hosted-directory, archived and forthcoming title definitions differ. No cross-publisher grand total is calculated.",
+  "publishers": [
+    {
+      "id": "elsevier",
+      "name": "Elsevier",
+      "count_label": "3,000+",
+      "count": 3000,
+      "count_kind": "lower-bound",
+      "count_scope": "Publisher portfolio; not a title-by-title active-journal census.",
+      "count_source": "https://www.elsevier.com/en-au/open-access",
+      "rss_evidence": "ScienceDirect documents RSS for all journal issue and book series alerts, not search RSS. Policy scope is the platform; no complete title census.",
+      "rss_source": "https://www.elsevier.support/sciencedirect/answer/whats-the-difference-between-a-sciencedirect-alert-and-rss-feed",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "rss.sciencedirect.com"
+      ],
+      "beginner_zh": "综合学科；含 Cell Press、The Lancet 等品牌",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "springer-nature",
+      "name": "Springer Nature",
+      "count_label": "3,000+",
+      "count": 3000,
+      "count_kind": "lower-bound",
+      "count_scope": "Group portfolio, 2025 OA report. Nature and BMC are not added again.",
+      "count_source": "https://stories.springernature.com/oa-report-2025/delivering-value/",
+      "rss_evidence": "Nature journal homepage explicitly links an RSS feed. This is journal-level evidence, not a group-wide policy.",
+      "rss_source": "https://www.nature.com/",
+      "rss_evidence_kind": "journal-example",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "www.nature.com",
+        "feeds.nature.com",
+        "link.springer.com",
+        "www.biomedcentral.com"
+      ],
+      "beginner_zh": "综合学科；Nature、Springer、BMC 不重复统计",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "taylor-francis",
+      "name": "Taylor & Francis",
+      "count_label": "2,500+",
+      "count": 2500,
+      "count_kind": "lower-bound",
+      "count_scope": "Company-published portfolio. The separate platform claim of 2,700+ is not interchangeable.",
+      "count_source": "https://taylorandfrancis.com/about/",
+      "rss_evidence": "Official 2019 user guide describes RSS alerts. Historical support evidence, not proof of present coverage.",
+      "rss_source": "https://librarianresources.taylorandfrancis.com/wp-content/uploads/2019/09/USER-GUIDE-tandfonline.pdf",
+      "rss_evidence_kind": "historical-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "www.tandfonline.com",
+        "www.dovepress.com"
+      ],
+      "beginner_zh": "综合学科；Routledge、Dovepress、PeerJ 属集团品牌",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "wiley",
+      "name": "Wiley Online Library",
+      "count_label": "2,000+",
+      "count": 2000,
+      "count_kind": "lower-bound",
+      "count_scope": "Platform collection count; not deduplicated current publisher-owned active journals.",
+      "count_source": "https://onlinelibrary.wiley.com/",
+      "rss_evidence": "Official researcher guide describes TOC and Early View RSS via Journal Tools. Complete current coverage not enumerated.",
+      "rss_source": "https://onlinelibrary.wiley.com/researchers/read/find-research",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "onlinelibrary.wiley.com"
+      ],
+      "beginner_zh": "综合学科；本次数字为平台馆藏口径",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "count_label": "1,100+",
+      "count": 1100,
+      "count_kind": "lower-bound",
+      "count_scope": "Press office states 1,100 journals; older journal landing text also says 1,440 portfolio / 1,100+ browse. Conflict retained; no reconciled precise count.",
+      "count_source": "https://www.sagepub.com/explore-our-content/press-office",
+      "rss_evidence": "Official Sage RSS help states Recent Articles and OnlineFirst feeds are available for all hosted titles. Platform policy, not a live title census.",
+      "rss_source": "https://journals.sagepub.com/connected/jou",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "journals.sagepub.com"
+      ],
+      "beginner_zh": "人文社科及理工医；官网数字存在口径差异",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "oup",
+      "name": "Oxford University Press",
+      "count_label": "500+",
+      "count": 500,
+      "count_kind": "lower-bound",
+      "count_scope": "Author-facing page reports more than 500 journals; collections and archives overlap and are not added.",
+      "count_source": "https://academic.oup.com/pages/for-authors/journals",
+      "rss_evidence": "Official guide provides RSS types and instructs readers to check whether a title participates.",
+      "rss_source": "https://academic.oup.com/journals/pages/using-the-content/email-alerts",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "academic.oup.com"
+      ],
+      "beginner_zh": "综合学科与学会合作出版",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge University Press",
+      "count_label": "400+",
+      "count": 400,
+      "count_kind": "lower-bound",
+      "count_scope": "Researcher page reports over 400 peer-reviewed journals.",
+      "count_source": "https://www.cambridge.org/core/services/researchers",
+      "rss_evidence": "Official help says feeds are available from journal listings, home, issue and article pages.",
+      "rss_source": "https://corehelp.cambridge.org/hc/en-gb/articles/17013205133330-Can-I-get-an-RSS-feed-from-Cambridge-Core",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "www.cambridge.org"
+      ],
+      "beginner_zh": "人文社科、理工与医学",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "mdpi",
+      "name": "MDPI",
+      "count_label": "545",
+      "count": 545,
+      "count_kind": "directory",
+      "count_scope": "Official US about page: 536 peer-reviewed + 9 conference journals. Directory may include forthcoming journals; not an active-only count.",
+      "count_source": "https://us.mdpi.com/about",
+      "rss_evidence": "Official journal directory displays RSS download links; no complete live link census performed.",
+      "rss_source": "https://www.mdpi.com/about/journals",
+      "rss_evidence_kind": "directory-links",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "www.mdpi.com"
+      ],
+      "beginner_zh": "开放获取；须区分同行评审期刊与会议刊",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "frontiers",
+      "name": "Frontiers",
+      "count_label": "228",
+      "count": 228,
+      "count_kind": "directory",
+      "count_scope": "Live journal directory includes society/partner journals. Do not compare directly with a 2022 RSS list.",
+      "count_source": "https://www.frontiersin.org/journals",
+      "rss_evidence": "Official 2022-06-30 article contains 125 distinct RSS-labelled links. 124 paths end in /rss; one Electronics link points to a journal homepage. Listed candidate paths, not live verified feeds.",
+      "rss_source": "https://www.frontiersin.org/news/2022/06/30/frontiers-social-media-and-rss",
+      "rss_evidence_kind": "official-listed-links",
+      "listed_count": 124,
+      "listed_unit": "rss-path-urls",
+      "rss_labelled_links": 125,
+      "misdirected_rss_labelled_links": 1,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "www.frontiersin.org",
+        "journal.frontiersin.org"
+      ],
+      "beginner_zh": "开放获取；含合作期刊",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "ieee",
+      "name": "IEEE",
+      "count_label": "200+",
+      "count": 200,
+      "count_kind": "lower-bound",
+      "count_scope": "Official IEEE publication topic page states more than 200 journals and transactions. Does not count all partner content in IEEE Xplore.",
+      "count_source": "https://technav.ieee.org/topic/ieee-publications/",
+      "rss_evidence": "Official Xplore personal-account help documents RSS alerts for saved search results and updated tables of contents.",
+      "rss_source": "https://ieeexplore.ieee.org/Xplorehelp/personalization-settings/personal-ieee-account",
+      "rss_evidence_kind": "platform-policy",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "ieeexplore.ieee.org"
+      ],
+      "beginner_zh": "电子、电气、工程与计算机",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "acs",
+      "name": "American Chemical Society (ACS)",
+      "count_label": "90+",
+      "count": 90,
+      "count_kind": "lower-bound",
+      "count_scope": "Official 2026 metrics article says over 90 journals. RSS table has 91 titles, with 2 feed options each.",
+      "count_source": "https://axial.acs.org/publishing/journal-metrics-2026",
+      "rss_evidence": "Rendered official RSS table enumerates 91 unique journal titles, each with ASAP and TOC options (182 options, not 182 journals).",
+      "rss_source": "https://pubs.acs.org/pages/rss",
+      "rss_evidence_kind": "official-listed-journals",
+      "listed_count": 91,
+      "listed_unit": "journal-titles",
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "pubs.acs.org"
+      ],
+      "beginner_zh": "化学及相关学科",
+      "observed_date": "2026-10-04"
+    },
+    {
+      "id": "acm",
+      "name": "Association for Computing Machinery (ACM)",
+      "count_label": "70+",
+      "count": 70,
+      "count_kind": "historical-lower-bound",
+      "count_scope": "Official March 2024 press release reports more than 70 journals; historical, not a 2026 exact count.",
+      "count_source": "https://www.acm.org/binaries/content/assets/press-releases/2024/march/news-release_cacm_relaunch_final.pdf",
+      "rss_evidence": "No current publisher-wide official RSS policy established in this review. Absence of evidence is not evidence of no RSS.",
+      "rss_source": "https://www.acm.org/publications/journals",
+      "rss_evidence_kind": "not-established",
+      "listed_count": null,
+      "listed_unit": null,
+      "official_rss_total": null,
+      "self_build_required_total": null,
+      "audit_hosts": [
+        "dl.acm.org"
+      ],
+      "beginner_zh": "计算机领域；规模证据发布于 2024 年",
+      "observed_date": "2026-10-04"
+    }
+  ]
+}

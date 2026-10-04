@@ -1,144 +1,97 @@
-# Academic Journal RSS Feeds
+# Academic journal RSS feeds
 
-**An open directory of scholarly journal RSS, Atom and RDF feed candidates — built for researchers, RSS readers and research tools.**
+An open directory of scholarly journal RSS, Atom and RDF candidates, with publisher research, source citations and reproducible endpoint observations.
 
 English · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-[Browse the journal list](docs/CATALOG.md) · [JSON](data/feeds.json) · [CSV](dist/feeds.csv) · [OPML](dist/feeds.opml) · [Status](dist/status.json) · [Contribute](CONTRIBUTING.md)
+[Journal list](docs/CATALOG.md) · [Publisher research](docs/PUBLISHERS.md) · [Endpoint results](docs/ENDPOINT-AUDIT.md) · [Methodology](docs/METHODOLOGY.md)
 
-Maintained by [AxisLabAI](https://github.com/AxisLabAI), initiated through [ZiNote](https://zinote.app). Our aim is to build a comprehensive, community-maintained directory of academic journal feeds. **“The world's most complete” is an ambition, not a verified ranking or a claim of complete coverage.**
+Maintained by [AxisLabAI](https://github.com/AxisLabAI), initiated through [ZiNote](https://zinote.app). This is a discovery directory, not a complete global census or a publisher-endorsed service.
 
-## Project status
+## What we measured
 
-Snapshot: **2026-10-04**. Counts describe different stages and must not be treated as interchangeable.
+Snapshot: 2026-10-04. We checked every distinct URL in a historical ZiNote candidate registry.
 
-| Metric | Count | Meaning |
-| --- | ---: | --- |
-| Day4 campaign milestone | 2,006 / 20,000 · 10.03% | Maintainer-reported project progress; not an audited count of working feeds |
-| Imported candidate records | 2,024 | Distinct feed URLs from a historical ZiNote URL snapshot |
-| Needs review | 2,024 | Identity, format and current availability need verification |
-| Currently verified in this repository | 0 | No fresh network verification is claimed at launch |
-| HTTPS / HTTP candidates | 1,963 / 61 | HTTP URLs are preserved for review, not silently upgraded |
+<!-- research-summary:start -->
 
-The live ZiNote app catalog, historical source snapshot and campaign milestone have different scopes. A larger app count does not establish the number of public, verified RSS endpoints. Machine-readable counts are generated in [status.json](dist/status.json).
+| Metric | Count / status |
+| --- | ---: |
+| Historical candidate URLs | 2024 |
+| Feed XML with entries in this check | 1709 |
+| Other outcomes requiring investigation | 315 |
+| Full identity and freshness review | Not completed |
+| Global official RSS / self-build-required journals | Unknown, not zero |
 
-## Journal list and coverage
+<!-- research-summary:end -->
 
-Browse the [full journal feed catalog](docs/CATALOG.md) for every journal name, URL, host, status and last-check date. The registry intentionally retains uncertain and potentially misclassified historical entries for review; inclusion is not a claim that a URL is an official, journal-specific, working feed.
+A recognizable feed containing entries is evidence of a response, not proof of official origin, correct journal identity, recent content or continued availability. Registry entries remain `needs-review` until their evidence is reviewed. The dated network observations are a separate layer.
 
-| Candidate host | Records | Initial state |
-| --- | ---: | --- |
-| rss.sciencedirect.com | 641 | needs-review |
-| www.nature.com | 144 | needs-review |
-| www.frontiersin.org | 94 | needs-review |
-| Other hosts | 1,145 | needs-review |
-| **Total** | **2,024** | **Awaiting current verification** |
+## Major publishers and official RSS
 
-Host counts are not publisher counts: one publisher may use several hosts, and a host may contain multiple content types. No impact-factor rankings or journal quartile datasets are distributed.
+The [12-publisher research table](docs/PUBLISHERS.md) covers Elsevier, Springer Nature, Taylor & Francis, Wiley, Sage, Oxford, Cambridge, MDPI, Frontiers, IEEE, ACS and ACM. Each row includes reported scale, official RSS evidence, scope and links. This is a representative starting set, not a ranking or an exhaustive list.
 
-## Quick start
-
-### Researchers and RSS readers
-
-1. Find a journal in the [catalog](docs/CATALOG.md).
-2. Check its status and try the feed URL in your RSS reader.
-3. Report an incorrect, moved or unavailable source through an issue.
-
-The [OPML export](dist/feeds.opml) contains **all unverified candidates**, including HTTP entries. It is a bulk discovery file, not a recommended ready-to-subscribe bundle. Prefer adding selected feeds after checking them.
-
-### Developers
-
-Download the canonical JSON:
-
-```bash
-curl -fL https://raw.githubusercontent.com/AxisLabAI/academic-journal-rss-feeds/main/data/feeds.json -o feeds.json
-```
-
-Filter by journal name without installing dependencies:
-
-```javascript
-const response = await fetch(
-  'https://raw.githubusercontent.com/AxisLabAI/academic-journal-rss-feeds/main/data/feeds.json'
-);
-if (!response.ok) throw new Error('Could not load registry');
-const feeds = await response.json();
-console.log(feeds.filter(feed => /nature/i.test(feed.name)));
-```
-
-Do not automatically fetch every URL at high concurrency. Respect publishers' terms, caching requirements and rate limits. Apply your own public-network and redirect checks before server-side fetching.
-
-## Data contract
-
-Canonical source: `data/feeds.json`, a JSON array.
-
-| Field | Type | Description |
+| Primary evidence | Finding | Limitation |
 | --- | --- | --- |
-| `id` | string | First 16 hex characters of SHA-256 of the normalized feed URL; changes when URL changes |
-| `name` | string | Source journal title; may require normalization |
-| `feed_url` | string | Public candidate RSS/Atom/RDF URL; format not inferred from extension |
-| `host` | string | Hostname extracted from the URL, not a verified publisher identity |
-| `status` | enum | `needs-review`, `active`, `unavailable`, `deprecated` |
-| `last_checked` | date or null | UTC verification date; null means no current evidence |
-| `provenance` | string | Source family, initially `zinote-historical-url-snapshot` |
+| [ScienceDirect support](https://www.elsevier.support/sciencedirect/answer/whats-the-difference-between-a-sciencedirect-alert-and-rss-feed) | Journal-issue and book-series RSS alerts are documented across the platform | Policy, not a measured healthy-feed count |
+| [ACS RSS table](https://pubs.acs.org/pages/rss) | 91 named titles, each with ASAP and TOC options, 182 options total | Not 182 journals or 91 verified healthy feeds |
+| [Frontiers official article](https://www.frontiersin.org/news/2022/06/30/frontiers-social-media-and-rss) | 125 RSS-labelled links: 124 RSS paths and 1 journal-homepage link | A 2022 article, not current coverage of all 228 directory titles |
+| [STM Global Brief 2021](https://stm-assoc.org/document/stm-global-brief-2021-economics-and-market-size-2/) | Over 48,000 active peer-reviewed scholarly journals; p. 15 cites September 2021 Ulrichsweb data | Historical benchmark, not a 2026 census or an RSS denominator |
 
-### Status definitions
+Publisher portfolios, platform collections and active journals are different populations. Do not sum incompatible figures. Nature and BMC are not added again on top of Springer Nature.
 
-| Status | Meaning |
+**How many journals need a custom feed? Not yet established.** A missing link, 403, timeout or old URL returning 404 does not prove that no official feed exists. Journal-level identity, official-feed discovery, failure diagnosis and permitted alternative sources must be reviewed. Unknown values are `null`, not zero and not “journal total minus found feeds”.
+
+## New to RSS?
+
+RSS is a machine-readable update list. A reader checks it and brings new article links into one place. It does not unlock paywalled full text.
+
+1. Start with a few journals related to your project, guided by your supervisor or relevant papers.
+2. Find the journal in the catalog and inspect the dated endpoint result.
+3. Compare the candidate URL with the official journal page before adding it to a reader.
+4. Confirm that article dates are recent and links lead to the correct journal.
+
+Publishers, journals and articles are different units. Publisher size is not a quality score. [Chinese beginner guide](docs/BEGINNERS.zh-CN.md).
+
+## Downloads and review states
+
+| Download | Contents | Intended use |
+| --- | --- | --- |
+| [JSON](data/feeds.json) / [CSV](dist/feeds.csv) | All historical candidates and registry states | Canonical discovery data |
+| [Full OPML](dist/feeds.opml) | All candidates, including unresolved and HTTP URLs | Discovery, not unchecked bulk subscription |
+| [Responsive candidates OPML](dist/responsive-candidates.opml) | Candidates returning entries during this check | Still needs identity and freshness review |
+| [Audit CSV](dist/endpoint-audit.csv) / [raw JSON](research/endpoint-audit-2026-10-04.json) | Outcomes, HTTP codes, formats, item counts and timestamps | Per-URL diagnosis |
+| [Research summary](dist/research-summary.json) | Counts, unknowns and host-group observations | Host groups are not ownership or coverage |
+| [Publisher evidence](research/publishers-2026-10-04.json) | Sources, dates, units and limitations | Source-backed research |
+
+ISSN-L deduplication is not complete, so URL counts are not unique journal counts.
+
+| Registry state | Meaning |
 | --- | --- |
-| `needs-review` | Discovered/imported; identity, validity or availability is unconfirmed |
-| `active` | Official identity, parseable RSS/Atom/RDF and at least one entry checked on the recorded date |
-| `unavailable` | Reviewed evidence indicates the feed cannot currently be used; may be recoverable |
-| `deprecated` | Reviewed evidence indicates retirement or replacement |
+| `needs-review` | Identity, validity or availability needs review |
+| `active` | Official journal identity, parseable feed and at least one entry documented on the date |
+| `unavailable` | Reviewed current failure; may be recoverable |
+| `deprecated` | Reviewed retirement or replacement evidence |
 
-A successful HTTP response alone is not validation. A historical fetch timestamp is not current evidence. This release contains no `active` entries and no uptime guarantees.
+`feed-with-entries` is a network observation, not an automatic `active` transition. Registry `last_checked: null` means no completed registry-level review, not that no request occurred. Freshness needs a separate check. [Schema and full method](docs/METHODOLOGY.md).
 
-## Provenance and safety
+## Reproduce and contribute
 
-The initial import uses only journal names and public feed URLs from a historical ZiNote snapshot. Internal database IDs, operational timestamps, impact factors, credentials, user records, article bodies and abstracts are excluded. The import date is not a verification date.
-
-The directory is independent of publisher endorsement. Links can redirect or become unavailable; review them before use. This project does not bypass access controls or redistribute journal content.
-
-## Repository layout
-
-```text
-data/feeds.json          Canonical public metadata
-docs/CATALOG.md         Generated full journal/status list
-dist/feeds.csv          Spreadsheet-friendly export
-dist/feeds.opml         Unverified bulk candidate export
-dist/status.json        Generated counts and campaign context
-scripts/                Import, build and local validation
-README.zh-CN.md         Chinese guide
-README.ja.md            Japanese guide
-```
-
-## Development and quality checks
-
-Requires Node.js 20 or newer. No third-party runtime packages are required.
+Node.js 20+ builds offline artifacts; the optional network check uses the Python 3 standard library. No package installation is required.
 
 ```bash
 git clone https://github.com/AxisLabAI/academic-journal-rss-feeds.git
 cd academic-journal-rss-feeds
 npm run build
 npm test
-git diff --exit-code -- dist docs/CATALOG.md
+git diff --exit-code -- dist docs README.md README.zh-CN.md README.ja.md
 ```
 
-CI checks field allowlists, URL syntax, duplicate URLs/IDs, status metadata and reproducible exports. **These are offline consistency checks, not live feed health checks.**
+CI checks consistency, not live publisher availability. For a new network audit use `python3 scripts/audit_endpoints.py --date YYYY-MM-DD`; existing snapshots cannot be overwritten. The build pins the published 2026-10-04 snapshot. Update that reference deliberately for a new release and read [request limits](docs/METHODOLOGY.md) first.
 
-## Roadmap
+Completed: three-language documentation, official-source research for 12 publishers/platforms, a complete 2,024-URL check and publication of failed observations.
 
-- [x] Publish a multilingual directory with explicit review states
-- [x] Export JSON, CSV and OPML with reproducible builds
-- [ ] Verify official journal identity and current RSS/Atom/RDF payloads
-- [ ] Repair HTTP-only, redirected and stale URLs
-- [ ] Add evidence-backed publisher, ISSN and subject metadata
-- [ ] Expand toward 20,000 journals with community contributions
+Remaining: ISSN-L normalization, official identity and freshness review, a dated active-journal denominator, confirmed native-feed gaps, and regional/independent publisher coverage.
 
-## Contributing
+English, Chinese and Japanese contributions are welcome. Submit a journal, official evidence page, public URL and date. See [CONTRIBUTING.md](CONTRIBUTING.md). Respect terms, copyright, access controls and rate limits. Never submit article bodies, abstracts, user data or credentials.
 
-Submit a journal, repair a URL or report a broken feed. Issues and pull requests in English, Chinese and Japanese are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for evidence requirements. For accidentally exposed secrets, do not reproduce them in a public issue; use the repository's private vulnerability reporting if available.
-
-## License
-
-Code: [MIT](LICENSE). Project-contributed factual metadata: [CC0 1.0](DATA-LICENSE.md), to the extent of the maintainers' rights. Publisher feed payloads, journal covers, abstracts and articles are **not** licensed by this repository.
-
+Code: [MIT](LICENSE). Maintainer-contributed factual metadata: [CC0 1.0](DATA-LICENSE.md), to the extent of their rights. Publisher content is not licensed by this repository.

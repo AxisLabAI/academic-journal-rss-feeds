@@ -10,11 +10,7 @@
   },
   "https_records": 1963,
   "http_records": 61,
-  "campaign_milestone": {
-    "reported_count": 2006,
-    "target": 20000,
-    "basis": "Maintainer-provided Day4 campaign milestone; not a live verification count."
-  },
+  "research_summary": "research-summary.json",
   "hosts": {
     "rss.sciencedirect.com": 641,
     "www.nature.com": 144,
